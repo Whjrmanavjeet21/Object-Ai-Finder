@@ -1,0 +1,15 @@
+body{
+    font-family: 'Niconne', cursive;
+}
+
+.heading {
+    width: 100%;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+canvas{
+    border-radius: 10px;
+    background-color: darkred;
+    box-shadow: 7px 7px 7px blue;
+}

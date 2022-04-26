@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ai Object Finder</title>
+        <link rel="shortcut icon" href="Logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Main.js"></script>
+    </head>
+    <body background="Background.png">
+        <center>
+            <h1 class="btn btn-warning heading">Ai Object Finder
+                <br>
+                <label>The input name which you will give should match the names present in CoCo model then only it will detect.</label>
+            </h1>
+            <br>
+            <h3 class="btn btn-info heading2">Object Name:</h3>
+            <br><br>
+            <input class="input1" id="input_id">
+            <br><br>
+            <button class="btn btn-danger" id="start" onclick="start()">Start</button>
+            <br>
+            <h3 class="btn btn-success" id="status"></h3>
+            <h3 class="btn btn-primary" id="object_found"></h3>
+        </center>
+    </body>
+</html>
